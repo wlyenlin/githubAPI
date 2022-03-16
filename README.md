@@ -25,6 +25,6 @@ Example
 ```commandline
 python main.py android
 ```
-
+In the command line.
 
 If no default argument is created, wlyenlin will be used as the default.
