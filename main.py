@@ -3,7 +3,7 @@ import sys
 
 def getJson(username='wlyenlin'):
     params={'sort':'created','type':'owner'}
-    response = requests.get("https://api.github.com/users/%s/repos?sort=created?type=owner" % username,params)
+    response = requests.get("https://api.github.com/users/%s/repos" % username,params)
     return response.json()
 
 def printName(json):
